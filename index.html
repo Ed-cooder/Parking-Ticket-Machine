@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>ticket-machine</title>
+</head>
+<body>
+
+  <div class="ticket-machine">
+    <h1>Parking Ticket Machine</h1>
+    <label for="duration">Select Duration:</label>
+    <select id="duration">
+        <option value="1">1 Hour - R5</option>
+        <option value="2">2 Hours - R8</option>
+        <option value="3">3 Hours - R10</option>
+        <option value="4">4 Hours - R12</option>
+        <option value="5">5 Hours - R15</option>
+    </select>
+    <button onclick="calculateCost()">Calculate Cost</button>
+    <p id="total-cost"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

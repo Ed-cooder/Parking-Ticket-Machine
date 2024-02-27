@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(9, 235, 235, 0.911);
+}
+
+.ticket-machine {
+  width: 300px;
+  margin: 180px auto;
+  padding: 50px;
+  border-radius: 5%;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-weight: bolder;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: rgb(6, 245, 245);
+  font-weight: bolder;
+}
